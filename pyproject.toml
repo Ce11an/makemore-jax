@@ -1,0 +1,14 @@
+[project]
+name = "makemore-jax"
+version = "0.1.0"
+description = "Learning Jax by following Andrej Karpathy `makemore` series"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "jax>=0.7.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.0",
+]
